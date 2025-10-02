@@ -6,7 +6,7 @@ on:
             - main
             - prod
 
-jobs:
+jobs: 
   hello_word:
     runs-on: ubuntu-latest
     steps:
