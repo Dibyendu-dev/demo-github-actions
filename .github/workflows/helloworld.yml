@@ -7,8 +7,8 @@ on:
             - prod
 
 jobs:
-    hello_world:
-        runs-on: ubuntu -latest
-        steps:
-            - name: "Print hello world"
-            run: echo "Hello World"
+  hello_word:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Print hello world"
+        run: echo "Hello world"
